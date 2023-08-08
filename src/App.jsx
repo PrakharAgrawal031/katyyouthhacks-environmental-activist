@@ -18,8 +18,8 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/about" element={<About />} />
+          <Route exact path="/katyyouthhacks-environmental-activist/" element={<Home />} />
+          <Route exact path="/katyyouthhacks-environmental-activist/about" element={<About />} />
         </Routes>
       </div>
     </BrowserRouter>
