@@ -14,8 +14,8 @@ function App() {
     //   </div>
     // </div>
 
-    <BrowserRouter>
-      <div className="App">
+    <BrowserRouter basename="/katyyouthhacks-environmental-activist/">
+      <div className="App" >
         <Navbar />
         <Routes>
           <Route exact path="/katyyouthhacks-environmental-activist/" element={<Home />} />
